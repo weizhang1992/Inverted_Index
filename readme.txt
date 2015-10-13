@@ -1,5 +1,5 @@
 Assignment 2 of WSE homework
-Name:Wei Zhang ID:N14785600 wz707
+Name:Wei Zhang 
 
 Introduction
 I use c/c++ to write the program. Below is three mainly result files. DoctoUrl table. Lexicon table. Inverted index file.
@@ -37,9 +37,6 @@ Configuration:
 #define Finalfilepath //file inverted index file 
 #define Tempindexpath //temp index files 
 
-
-
-
 How to run
 
 This program is write in eclipse with CDT. Please use eclipse with CDT to compile it and run it.
@@ -51,9 +48,6 @@ Source folder Structure
 |-- nz_full // this data contains until vol-699. larger than nz10
 |-- nz2     // this data contains until vol-87, used as test data
 |-- src     // contain all source file
-
-
-
 
 What this program can do
 
@@ -71,12 +65,6 @@ use gzip.cpp to read the gzipped data file and index file
    compress the docID and vbyte compress. stored as binary file.
 9. write the lexicon table.
 
-
-
-
-
-
-
 Major modules
 
 Config:      set the max final file size, and so on.
@@ -88,9 +76,6 @@ table:       set lexicon,doc_url,inverted_index,rawpost format
 tempindex:   method to generate temp index file
 invertindex: method to generate file inverted index file
 main:        main function
-
-
-
 
 How long it takes
 
@@ -108,27 +93,13 @@ Cost time of run program of nz: 1745 Seconds.
 - Cost time of merge the temp index file: 132  Seconds.
 Cost time of generate final index file: 219  Seconds.
 
-
-
-
-
-
-
-
 How large the final file
 
 Size of invert  index: 873.8MB
 Size of lexicon table:  36.5MB
 Size of doc_url table: 167.7MB
 
-
-
 Limitation
 
 The maximum of size of each file inverted index file is 4GBytes
 
-
-
-
-
-Screenshot
